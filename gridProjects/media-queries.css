@@ -95,3 +95,44 @@
     font-size: 10px;
   }
 }
+@media (max-width: 420px) {
+  header nav a {
+    font-size: 12px;
+  }
+  .section1 {
+    grid-gap: 1rem;
+    padding: 5rem 0 0 0;
+  }
+  .section1 h1 {
+    font-size: 20px;
+    max-width: 80%;
+  }
+  .section1 p {
+    max-width: 70%;
+  }
+
+  .section2-wraps {
+    display: grid;
+    place-items: center;
+  }
+  .section2-wraps h2 {
+    font-size: 18px;
+    margin-top: 2rem;
+  }
+  .section2-wraps p {
+    max-width: 100%;
+  }
+  .section3-wraps p {
+    max-width: 100%;
+    font-size: 15;
+  }
+  .section4 {
+    padding: 10rem 4rem;
+  }
+}
+@media (max-width: 370px) {
+  .section4-wraps .tag {
+    grid-template-columns: auto;
+    grid-template-rows: 1fr;
+  }
+}
